@@ -1,0 +1,27 @@
+{
+    "name": "main_server",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "scripts": {
+        "test": "jest --watchAll",
+        "start": "node app.js",
+        "dev": "nodemon app.js"
+    },
+    "dependencies": {
+        "cors": "^2.8.5",
+        "crypto": "^1.0.1",
+        "dotenv": "^10.0.0",
+        "express": "^4.17.1",
+        "express-jwt": "^6.1.0",
+        "express-validator": "^6.12.1",
+        "jsonwebtoken": "^8.5.1",
+        "mongoose": "^6.0.6",
+        "morgan": "^1.10.0",
+        "nodemon": "^2.0.12",
+        "uuid": "^8.3.2"
+    },
+    "devDependencies": {
+        "jest": "^27.2.0"
+    }
+}
